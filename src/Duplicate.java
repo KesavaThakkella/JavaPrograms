@@ -13,6 +13,7 @@ public class Duplicate {
 			if (store.add(name) == false) {
 
 				System.out.println("Duplicate element from a given string is : " + name);
+				System.out.println("Kesava Subash");
 
 			}
 		}
@@ -27,6 +28,7 @@ public class Duplicate {
 				if (names[i].equals(names[j])) {
 
 					System.out.println("duplicate elent is : " + names[i]);
+					System.out.println("Kesava Subash");
 
 				}
 
