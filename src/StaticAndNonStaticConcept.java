@@ -24,7 +24,7 @@ public class StaticAndNonStaticConcept {
 
 		// How to call non static methods and variables:
 		// ...................................................
-		// To call non static methods and variable we need to created object
+		// To call non static methods and variable we need to create object
 		// reference to that class name then only we can call the non static
 		// methods and variables.
 
@@ -37,7 +37,7 @@ public class StaticAndNonStaticConcept {
 		// below is not a good practice because static variables are freely
 		// stored in a java memory then again there is no point of creating the
 		// object reference to the static variables.
-		obj.sum();
+		//obj.sum();
 
 	}
 
