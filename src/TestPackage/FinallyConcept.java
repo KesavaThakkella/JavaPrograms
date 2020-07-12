@@ -10,6 +10,7 @@ public class FinallyConcept {
 	public static void main(String[] args) {
 
 		division1();
+		division();
 
 	}
 

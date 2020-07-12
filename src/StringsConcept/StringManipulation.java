@@ -2,12 +2,15 @@ package StringsConcept;
 
 public class StringManipulation {
 
+	// A string is a collection of different characters. which encoaded in
+	// double codes.
+
 	public static void main(String[] args) {
 
 		String s = "The rains have started here";
 		System.out.println(s.length());
 
-		// finding the specific character at specific index
+		// finding the specific character at specific location or index
 
 		System.out.println(s.charAt(5));
 
