@@ -18,6 +18,7 @@ public class ConstructorWithThisKeyword {
 	public static void main(String[] args) {
 
 		ConstructorWithThisKeyword obj = new ConstructorWithThisKeyword("kesava", 24);
+		System.out.println(obj.name);
 
 	}
 
