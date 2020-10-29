@@ -10,7 +10,7 @@ public class StringManipulation {
 		String s = "The rains have started here";
 		System.out.println(s.length());
 
-		// finding the specific character at specific location or index
+		// i want to find what exactly char is available at 5 index or location.
 
 		System.out.println(s.charAt(5));
 
@@ -21,7 +21,7 @@ public class StringManipulation {
 		// if we want to check the 2nd index of s in a given string.
 
 		// here do not start the counting from 0th location start the counting
-		// from 3rd location
+		// from 9th location
 
 		System.out.println(s.indexOf('s', 9));
 
@@ -52,7 +52,8 @@ public class StringManipulation {
 		System.out.println(s.equals(s1));
 
 		// even if both the cases are not same and wanted to ignore the case
-		// sensitive and print we have below method then it will throw true
+		// sensitive and print the string we have below method then it will
+		// throw true
 		// value.
 
 		String s2 = "The rains have started Here";
@@ -119,6 +120,9 @@ public class StringManipulation {
 		System.out.println(x + y + a + b); // left to right it will print.
 		System.out.println(a + b + x + y); // left to right it will print.
 		System.out.println(x + y + (a + b));
+
+		String ss = "kesavasubashnaidus";
+		System.out.println(ss.indexOf('s', ss.indexOf(s)) + 1);
 
 	}
 

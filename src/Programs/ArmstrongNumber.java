@@ -8,7 +8,7 @@ public class ArmstrongNumber {
 		// The sum of cubes of a no is equals to a given no is called as arm
 		// strong number.
 
-		isanarmstrong(370);
+		isanarmstrong(371);
 
 	}
 

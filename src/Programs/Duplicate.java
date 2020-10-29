@@ -1,4 +1,5 @@
 package Programs;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -19,6 +20,8 @@ public class Duplicate {
 			}
 		}
 
+		System.out.println("*********************Below is 2nd method using two for loops************************");
+
 		// 2nd Method
 		System.out.println("Below using two for loops it's time complixcity is O(nxn) which is worst ");
 
@@ -28,7 +31,7 @@ public class Duplicate {
 
 				if (names[i].equals(names[j])) {
 
-					System.out.println("duplicate elent is : " + names[i]);
+					System.out.println("duplicate element is : " + names[i]);
 					System.out.println("Kesava Subash");
 
 				}

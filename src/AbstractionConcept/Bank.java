@@ -3,8 +3,7 @@ package AbstractionConcept;
 public abstract class Bank {
 
 	// if we want to define any class as abstract class we need to define
-	// abstract
-	// keyword
+	// abstract keyword
 	// Atlest one abstract method should be there
 	// Abstract class can have abstract methods and non abstract methods
 	// we cannot create the object of abstract class.
@@ -14,6 +13,9 @@ public abstract class Bank {
 
 	// partial abstraction
 	// Hiding the complete implementation logic is called as abstraction
+
+	String name = "kesava";
+	static int age = 24;
 
 	public abstract void loan(); // abstract method -- no method body
 
@@ -25,6 +27,10 @@ public abstract class Bank {
 	public void debit() {
 
 		System.out.println("Bank Debit method");
+	}
+
+	public static void something() {
+
 	}
 
 }

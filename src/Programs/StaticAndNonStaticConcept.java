@@ -22,6 +22,7 @@ public class StaticAndNonStaticConcept {
 		// How to call static variables:
 		System.out.println(age);
 		System.out.println(StaticAndNonStaticConcept.age);
+		StaticAndNonStaticConcept.sum();
 
 		// How to call non static methods and variables:
 		// ...................................................

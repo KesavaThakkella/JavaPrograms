@@ -9,6 +9,7 @@ public class xyz extends MethodOverloading {
 		a.sum(5);
 		a.sum(5, 10);
 		main();
+		MethodOverloading.main();
 
 	}
 

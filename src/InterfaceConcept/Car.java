@@ -10,6 +10,8 @@ public interface Car {
 	// in interface we can define only final and static variables ie., int
 	// final int wheels=4;
 
+	static int wheel = 4;
+
 	public void start();
 
 	public void stop();
