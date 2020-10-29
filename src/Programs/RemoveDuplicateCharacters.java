@@ -9,10 +9,10 @@ public class RemoveDuplicateCharacters {
 
 	public static void main(String[] args) {
 
-		String name = "kesavasubash";
+		String name = "kkksseeggtyuu";
 
 		char[] chars = name.toCharArray();
-		Set<Character> present = new HashSet<>();
+		Set<Character> present = new HashSet<Character>();
 
 		for (char c : chars) {
 
