@@ -53,7 +53,7 @@ public class MethodOverloading {
 
 	public static void main(int s) {
 
-		System.out.println("Overloading the main method with no arguments or with no input parameters");
+		System.out.println("Overloading the main method with arguments or with input parameters");
 		System.out.println("Value of s is " + s);
 
 	}

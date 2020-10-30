@@ -7,7 +7,7 @@ public class StringManipulation {
 
 	public static void main(String[] args) {
 
-		String s = "The rains have started here";
+		String s = "The rains have started heres";
 		System.out.println(s.length());
 
 		// i want to find what exactly char is available at 5 index or location.
@@ -23,7 +23,9 @@ public class StringManipulation {
 		// here do not start the counting from 0th location start the counting
 		// from 9th location
 
-		System.out.println(s.indexOf('s', 9));
+		System.out.println(s.indexOf('s', 9)); // 2nd Occurence of s
+
+		System.out.println(s.indexOf('s', 16)); // 3rd occurence of s
 
 		// Above is hard coded value it's better to do like below.
 		// Below is 2nd occurrence of s
@@ -120,9 +122,6 @@ public class StringManipulation {
 		System.out.println(x + y + a + b); // left to right it will print.
 		System.out.println(a + b + x + y); // left to right it will print.
 		System.out.println(x + y + (a + b));
-
-		String ss = "kesavasubashnaidus";
-		System.out.println(ss.indexOf('s', ss.indexOf(s)) + 1);
 
 	}
 
