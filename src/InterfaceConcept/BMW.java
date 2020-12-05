@@ -25,7 +25,7 @@ public class BMW implements Car {
 	// We can also have non overridden methods:
 	public void threadsafety() {
 
-		System.out.println("BMW having it;s own threadsafety method");
+		System.out.println("BMW having its own threadsafety method");
 
 	}
 

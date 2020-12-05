@@ -7,7 +7,7 @@ public class Constructor {
 	// name
 	// Constructor looks like a function but it is not a function and we
 	// don't write any void or return type some thing inside a constructor
-	// we do n't write any return statement.
+	// we don't write any return statement.
 
 	// Can i over load the constructor:
 	// Yes you can overload the constructor

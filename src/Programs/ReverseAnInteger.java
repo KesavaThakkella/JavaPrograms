@@ -13,7 +13,7 @@ public class ReverseAnInteger {
 			num = num / 10;
 
 		}
-		System.out.println("After reversing a string is " + rev);
+		System.out.println("After reversing a number is " + rev);
 
 		long num1 = 1234567;
 
