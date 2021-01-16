@@ -4,6 +4,7 @@ public class MethodOverloading {
 
 	// Definition : When method name is same but with different input parameters
 	// (or) arguments with in the same class is known as method overloading.
+	// Dynamic or Run time polymarphism.
 
 	// Note Points:
 	// Can we overload the main method :
