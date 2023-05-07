@@ -1,0 +1,19 @@
+pubilc class CountOfEachCharacterOccurance{
+
+
+   public sttaic void main(String[] args){
+
+    String s="kesavasubash";
+
+    int totalcount=s.length();
+  
+  int totalcount_afterremove=s.replace("k","").length(); // total length after removing k
+
+  int coumt = totalcount-totalcount_afterremove;
+
+  System.out.println("Occurance of k is:"+count);
+
+}
+
+
+}
