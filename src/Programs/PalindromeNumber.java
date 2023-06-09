@@ -1,5 +1,8 @@
 package Programs;
 
+A palindromic number is a number that remains the same when 
+its digits are reversed
+
 public class PalindromeNumber {
 
 	public static void main(String[] args) {
