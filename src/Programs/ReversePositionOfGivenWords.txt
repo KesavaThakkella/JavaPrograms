@@ -12,3 +12,6 @@ class ReversePositioofwordsinagivenstring {
         }
     }
 }
+
+Input: My name is kesava
+OutPut: kesava is name My
