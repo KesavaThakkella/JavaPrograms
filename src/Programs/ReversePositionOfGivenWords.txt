@@ -1,0 +1,14 @@
+Reverse a position of given words
+
+class ReversePositioofwordsinagivenstring {
+    public static void main(String[] args) {
+        
+        String s="My name is kesava";
+        String a[]=s.split(" ");
+
+        for (int i=a.length-1;i>=0;i--){
+            
+            System.out.print(a[i]+" ");
+        }
+    }
+}
