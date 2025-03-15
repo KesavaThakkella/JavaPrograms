@@ -9,7 +9,7 @@ pubilc class CountOfEachCharacterOccurance{
   
   int totalcount_afterremove=s.replace("k","").length(); // total length after removing k
 
-  int coumt = totalcount-totalcount_afterremove;
+  int count = totalcount-totalcount_afterremove;
 
   System.out.println("Occurance of k is:"+count);
 
@@ -17,6 +17,9 @@ pubilc class CountOfEachCharacterOccurance{
 
 
 }
+
+OutPut: Occurance of k is:1
+
 
 //Another Way
 
