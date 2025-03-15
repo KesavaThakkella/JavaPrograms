@@ -58,4 +58,14 @@ public class AnotherWay {
 
 	}
 
+Output:
+
+a2
+b2
+c2
+d2
+e2
+f3
+g1
+
 }
